@@ -7,8 +7,6 @@ const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
 const handleRefreshToken = (req, res) => {
-  const { user, pwd } = req.body;
-
   const cookies = req.cookies;
   if (!cookies?.jwt) return res.sendStatus(401);
 
