@@ -5,3 +5,31 @@
 20221102	21:24:07	aa9903b7-699f-49b2-9199-b5004f58313b	/new-page.html	GET
 20221102	21:24:07	de3c205b-ff3c-4d16-986f-21637963da40	/css/style.css	GET
 20221102	21:24:07	7c1b050c-2055-4df2-8317-bebb925adbb9	/img/img1.jpg	GET
+20221103	07:36:30	84a13e40-1195-4e65-b335-f6497d9e72d9	GET	undefined	/
+20221103	07:36:30	e2ebf9d8-ab57-4739-b0d8-d8da0651e4f8	GET	undefined	/css/style.css
+20221103	07:38:47	d8ef434c-1caf-44d7-a1d6-01183e681b05	GET	undefined	/
+20221103	07:38:47	c105b584-a472-4eba-9032-0b2909b8a0e7	GET	undefined	/css/style.css
+20221103	07:39:48	ae202e68-edfb-41b9-a517-70399d1d95d5	OPTIONS	https://www.google.com	/
+20221103	07:39:48	9454c5f2-9cd3-428f-8d3d-2a8430bc533a	GET	https://www.google.com	/
+20221103	07:41:50	7a5e6148-ed43-4a09-a578-3a2a23b8126c	OPTIONS	https://www.google.com	/
+20221103	07:41:50	e7eb2e9e-aa4f-4ef5-bf48-7eb24299234d	GET	https://www.google.com	/
+20221103	07:48:55	b07f1ec9-a06a-44d3-912d-b0fa49839769	OPTIONS	https://www.google.com	/
+20221103	07:48:55	b63365a6-487e-477a-a855-c891bf34f811	GET	https://www.google.com	/
+20221103	07:49:14	a921339e-5e49-4d9f-bf5c-14655c3f6b04	OPTIONS	https://www.google.com	/
+20221103	07:49:14	451d08e3-cde2-4171-9771-62865070dc7b	GET	https://www.google.com	/
+20221103	07:50:34	1a1e6e7f-bccf-40d2-a1b0-05f1de40795b	OPTIONS	https://www.google.com	/
+20221103	07:50:34	61b034d9-a318-4e65-92d5-bc10cf320da5	GET	https://www.google.com	/
+20221103	07:52:38	cdd594eb-fa4a-48ef-9296-9e3a51aa260a	GET	undefined	/
+20221103	07:53:32	58572c30-06e1-45ce-b096-188690d988c8	GET	undefined	/
+20221103	07:53:32	58b01619-d55a-4f77-a6b7-8c37fe745d00	GET	undefined	/css/style.css
+20221103	07:58:09	0d213edd-442a-47bc-b58b-12366890997b	GET	undefined	/
+20221103	07:58:09	cb24b731-1ceb-41b1-bac9-7fcdf944137a	GET	undefined	/css/style.css
+20221103	07:58:20	44337b80-57ea-4d0a-a758-7b846d0d3efd	GET	undefined	/
+20221103	07:58:20	4ad4627a-97da-4362-91ee-61f8f0bb3334	GET	undefined	/css/style.css
+20221103	07:58:56	128c382d-967a-4382-8d7e-d8e3d0515a08	GET	undefined	/
+20221103	07:59:47	e99d537d-4743-49ff-9503-1f15fa45ae8e	GET	undefined	/
+20221103	07:59:47	a211db8e-8254-40bc-89c9-bd6b9397f2e3	GET	undefined	/css/style.css
+20221103	08:01:11	20b68074-5b91-4b95-a54a-c0a7f564e22d	GET	undefined	/dave
+20221103	08:01:11	27fbceac-eb5f-4a40-9a00-538341b3ade4	GET	undefined	/css/style.css
+20221103	08:03:50	215d8bbe-ca85-438d-a8b2-30b02962594a	GET	undefined	/dave
+20221103	08:03:50	ed439fb5-6600-47db-9416-648d85d66e84	GET	undefined	/css/style.css
