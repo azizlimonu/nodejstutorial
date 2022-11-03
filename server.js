@@ -28,6 +28,7 @@ app.use('/',express.static(path.join(__dirname, '/public')));
 
 // routes
 app.use('/', require('./routes/root'));
+app.use('/register', require('./routes/register'));
 app.use('/employees',require('./routes/api/employees'));
 
 // all route didnt cinclude
