@@ -29,7 +29,7 @@ const handleLogin = async (req, res) => {
     // create JWT
     const accessToken = jwt.sign(
       {
-        "userInfo": {
+        "UserInfo": {
           "username": foundUser.username,
           "roles": roles
         },
@@ -43,7 +43,7 @@ const handleLogin = async (req, res) => {
       { expiresIn: '1d' }
     );
 
-    // save the refresh token in db, create logout route, invalidate refresh token
+    // save the refres h token in db, create logout route, invalidate refresh token
     // otherusers => array of the user thats not login
     const otherUsers = usersDB.users.filter(person => person.username !== foundUser.username);
 
