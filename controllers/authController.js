@@ -52,7 +52,8 @@ const handleLogin = async (req, res) => {
       path.join(__dirname, '..', 'model', 'users.json'),
       JSON.stringify(usersDB.users)
     )
-    res.cookie('jwt', refreshToken, { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 });
+    // res.cookie('jwt', refreshToken, { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 });
+    res.cookie('jwt', refreshToken, { httpOnly: true, samesite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 });
     res.json({ accessToken });
     // res.json({ 'success': `user ${user} is logged in` });
   } else {

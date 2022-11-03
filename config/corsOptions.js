@@ -1,15 +1,17 @@
 // apply cors(cross-origin-resource-sharing)
-const whiteList = [
-  'https://www.youtsite.com',
-  'http://127.0.0.1:5500',
-  'http://localhost:3500'
-];
+// const whiteList = [
+//   'https://www.youtsite.com',
+//   'http://127.0.0.1:5500',
+//   'http://localhost:3500'
+// ];
+
+const allowedOrigins = require('./allowedOrigins');
 // that will be access your data/backend/server to fetch 
 // allow cors 
 const corsOptions = {
   origin: (origin, callback) => {
     // in other words if the domain is NOT the whitelist than let it pass
-    if (whiteList.indexOf(origin) !== -1 || !origin) {
+    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
       callback(null, true);
       // the origin will be sendback
     } else {
