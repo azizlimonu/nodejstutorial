@@ -59,3 +59,10 @@
 20221103	09:22:34	184d6c8e-85a6-4c90-a49b-092ebd12de9f	DELETE	undefined	/employees
 20221103	09:22:59	be40b2d9-4d0c-49d7-8819-4707cd95214d	GET	undefined	/employees/1
 20221103	09:24:29	04006f61-f8af-4f75-9d60-d9115b205eb4	POST	undefined	/employees
+20221103	10:41:27	d8122fba-91fd-4fdb-b260-613d87aeacde	GET	undefined	/employees
+20221103	10:43:02	8d74fe83-0e52-4a54-aa79-be8145e73b59	POST	undefined	/employees
+20221103	10:43:32	012e477b-e0ce-4f3e-8dc9-f300303ec253	POST	undefined	/employees
+20221103	10:44:13	34119340-097d-453c-acd0-39379507e351	PUT	undefined	/employees
+20221103	10:44:55	ee94282c-92a8-46e3-9b83-597f416af44e	DELETE	undefined	/employees
+20221103	10:45:15	25e00443-4a53-4334-843e-3059b4b6817d	GET	undefined	/employees/1
+20221103	10:46:36	1f055b08-163f-4d26-90e1-11a90c869c51	PUT	undefined	/employees
