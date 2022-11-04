@@ -39,7 +39,7 @@ const handleLogin = async (req, res) => {
     foundUser.refreshToken = refreshToken;
     // save to mongoDB
     const result = await foundUser.save();
-    console.log("result is: ", result)
+    console.log(result)
 
     res.cookie('jwt', refreshToken, { httpOnly: true, samesite: 'None', maxAge: 24 * 60 * 60 * 1000 });
     res.json({ accessToken });

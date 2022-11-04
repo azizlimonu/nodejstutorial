@@ -6,8 +6,6 @@ const handleRefreshToken = async (req, res) => {
   const cookies = req.cookies;
   if (!cookies?.jwt) return res.sendStatus(401);
 
-  console.log("cookies :", cookies.jwt);
-
   const refreshToken = cookies.jwt;
 
   // find the user if exists with the same refresh token
